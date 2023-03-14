@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    outline: none;
+}
+label {
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    color: #ED4C67;
+}
+
+input[type='radio'] {
+    border: 0px;
+    width: 100%;
+    height: 2em;
+    margin-top: 10px;
+}
+
+input[type='text'] {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border: #fff 2px solid;
+    margin: 10px 2px;
+    font-size: 15px;
+}
+button {
+    width: 40%;
+    padding: 8px;
+    background: #ED4C67;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 5px;
+    box-shadow: #ED4C67 0px 3px 8px;
+}
+
+.container .wapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+}
+.wapper .context-wapper {
+    position: absolute;
+    top: 2%;
+    left: 15%;
+}
+/* Header */
+
+.header_context {
+    color: #fff;
+    margin-top: 10px;
+}
+#header_result {
+    color: #ED4C67;
+
+}
+.wapper .header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.wapper .header h1 {
+    color: #fff;
+    font-size: 35px;
+}
+/* !Header */
+
+/* Context */
+.context-wapper .context {
+    position: relative;
+}
+.context-wapper .context .context-src {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#mucCuoc {
+    width: 30%;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: #ED4C67 0px 2px 5px -1px, #ED4C67 0px 1px 3px -1px;
+}
+.context .context-src .tai,
+.context .context-src .xiu {
+    margin: 20px 20px;
+    padding: 45px;
+    background-color: black;
+    border: 2px solid #B53471;
+    border-radius: 5px;
+    box-shadow: #B53471 0px 7px 29px 0px;
+}
+.btn_btn {
+    display: flex;
+    justify-content: space-around;
+}
+#btn_Reset {
+    background: #1289A7;
+    box-shadow: #1289A7 0px 3px 8px;
+}
+/* !Context */
+
+/* Result */
+#taiOrxiu {
+    color: #B53471;
+    font-size: 30px;
+}
+#result_context {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+/* !Result */
+
+
+
+
+
+
+
+
+
+
+
+

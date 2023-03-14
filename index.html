@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài Xỉu </title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wapper">
+            <div class="context-wapper">
+                <div class="header">
+                    <img src="./images/images.jpg" alt="Logo">
+                    <h1>Tài Xỉu</h1>
+                    <h2 class="header_context">Bạn có: <span id="header_result">500</span> Triệu</h2>
+                </div>
+                <div class="context">
+                    <div class="context-src">
+                        <div class="tai">
+
+                            <label for="tai">Tài</label>
+                            <br>
+                            <input checked id="taiInput" type="radio" name="tai_xiu" value="tai">
+
+                        </div>
+                        <div class="xiu">
+
+                            <label for="xiu">Xỉu</label>
+                            <br>
+                            <input id="xiuInput" type="radio" name="tai_xiu" value="xiu">
+
+                        </div>
+                    </div>
+                    <label for="mucCuoc">Mức Cược (Triệu)</label>
+                    <br>
+                    <input id="mucCuoc" type="text" name="mucCuoc">
+                    <br>
+                    <div class="btn_btn">
+                        <button id="btn_Reset">Reset</button>
+                        <button id="btn">Chơi</button>
+                    </div>
+                </div>
+                <div class="result">
+                    <input class="result_input" type="text">
+                    <input class="result_input" type="text">
+                    <input class="result_input" type="text">
+                    <h2 id="taiOrxiu"></h2>
+                    <p id="result_context"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
